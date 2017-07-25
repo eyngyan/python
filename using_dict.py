@@ -20,7 +20,13 @@ add.pop('Spammer')
 print('The new address book is:\n')
 for name,address in add.items():
      print('Contact:', name, ',', 'address:', address, '\n')
+add['Michael']='Michael.a.yang@ericsson.com'
 
+print('The new address book is:\n')
+for name, address in add.items():
+     print('联系人:', name, '，', '地址：', address, '\n')
+
+     
 
 
 
